@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SIEG</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/reset.css" />  <!-- reset CSS -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />	 <!-- style CSS -->
+<link rel="stylesheet" type="text/css" href="css/mobile.css" />   <!-- mobile CSS -->
+<link rel="stylesheet" href="css/swiper.css">   <!-- swiper CSS -->
+
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<script src="js/sub_menu.js"></script>	<!-- sub_menu JS -->
+   <style>
+       .swiper-container {
+		width:100%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+   </style>
+
+ <script src="js/mobile_menu.js"></script>
+</head>
+
+<body>
+<div id="wrap">		<!--  Wrap  -->
+    <div id="header">  <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 헤더 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+		<div class="header_inner"> <!-- inner -->
+        	<h1 class="logo"><a href="index.html" title="SIEG"><img src="./images/logo.png" alt="logo" /></a></h1>
+            <p id="m_menu_bar"><img src="./images/m_menu_bar.png" alt="menu"></p>
+
+           	<!-- 메뉴 -->
+            <ul id="menu">
+            	<li class="on_01"><a href="#">ABOUT SIEG</a></li>
+                <li class="on_02"><a href="#">COLLECTION</a></li>
+                <li class="on_03"><a href="#">PRESS</a></li>
+                <li class="on_04"><a href="#">NEWS</a></li>
+                <li class="on_05"><a href="#">STORE</a></li>
+            </ul>
+
+            <!-- 서브메뉴 -->
+            <div id="sub_menu_box">
+					<ul class="sub_menu about_sub">
+								<li><a href="#" title="CONCEPT">CONCEPT</a></li>
+								<li><a href="#" title="2016 S/S">2016 S/S</a></li>
+								<li><a href="#" title="MODEL">MODEL</a></li>
+					</ul>
+
+					<ul class="sub_menu collection_sub">
+								<li><a href="#" title="RE:ARCHITECTURE">RE:ARCHITECTURE</a></li>
+								<li><a href="#" title="MOVIE">MOVIE</a></li>
+					</ul>
+
+					<ul class="sub_menu press_sub">
+								<li><a href="#" title="MAGAZINE">MAGAZINE</a></li>
+								<li><a href="#" title="3DAYS">3DAYS</a></li>
+								<li><a href="#" title="FASHION KING">FASHION KING</a></li>
+					</ul>
+
+                    <ul class="sub_menu store_sub">
+								<li><a href="#" title="ON LINE">ON LINE</a></li>
+								<li><a href="#" title="OFF LINE">OFF LINE</a></li>
+					</ul>
+				</div>
+
+
+
+		</div> 	<!-- //inner -->
+	</div> 	<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //헤더 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+
+
+
+	<div id="content">  <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 컨텐츠 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+		<div class="inner da-thumbs" id="da-thumbs"><!-- inner -->
+
+        		<video id="video" src="vedio/SIEG 2016 Spring-Summer Campaign.mp4"  width="550" height="265" loop autoplay ></video>
+
+
+				<div id="movie" class="hover_p">		<!-- ㅡㅡㅡㅡ MOVIE ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li class="txt_01">AD.CAMPAIGN</li>
+                            <li class="play"><img src="images/play.png" alt="play_btn"></li>
+                            <li id="movie_text">MOVIE</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                            <li class="txt_02">WATCH THIS SEASON’S TREND<br />WITH SOO HYUN IM MOTION</li>
+                        </ul>
+                 </div>
+
+
+
+                <div id="still" class="hover_p">			<!-- ㅡㅡㅡㅡ STILL ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="still_txt_01">AO.CAMPAIGN</li>
+                            <li class="text">STILL</li>
+                            <li id="border"><img src="images/border.png" alt="border"></li>
+                            <li id="txt_02">DISCOVER SEASON’S TRENDY,<br />REINED STYLE VIA OUR SHOOT</li>
+                         </ul>
+                </div>
+
+
+                <div id="sieg_black" class="hover_p">		<!-- ㅡㅡㅡㅡ SIEG BLACK ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="product_txt_01">PRODUCT</li>
+                            <li class="black_text">SIEG BLACK</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                            <li class="txt_02">TAILORING FOR COMFORT STYLE</li>
+                        </ul>
+                </div>
+
+
+                <div id="sns">		<!-- ㅡㅡㅡㅡ FOLLOW US ㅡㅡㅡㅡ -->
+                        <div class="box">
+                            <div id="sns_txt_01">SNS</div>
+                            <div id="sns_text">FOLLOW US</div>
+                            <div class="border"><img src="images/border.png" alt="border"></div>
+                            <div class="sns_img" id="sns_01">
+                            	<a href="#"><div class="hover_box_1"></div><img src="images/sns_01.png" alt="facebook"></a>
+                             </div>
+                            <div class="sns_img">
+                            <a href="#"><div class="hover_box_1"></div><img src="images/sns_02.png" alt="blog"></a>
+                            </div>
+                            <div class="sns_img">
+                            <a href="#"><div class="hover_box_1"></div><img src="images/sns_03.png" alt="twitter"></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div id="main_img" class="hover_p">		<!-- ㅡㅡㅡㅡ MAIN 김우빈 ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="main_txt_01">PRODUCT</li>
+                            <li id="main_text">LOOK BOOK</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                            <li class="txt_02">REFINED YET PRACTICAL<br />STYLE</li>
+                        </ul>
+                </div>
+
+                <div id="logo_move" class="hover_p">		<!-- ㅡㅡㅡㅡ 로고 움직임 ㅡㅡㅡㅡ -->
+                    <div class="hover_box"></div>
+                </div>
+
+                <div id="celebs" class="hover_p">		<!-- ㅡㅡㅡㅡ CELEBS 서강준 ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="celebs_txt_01">FRESS</li>
+                            <li id="celebs_text">CELEBS</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                        </ul>
+                </div>
+
+                <div id="neck" class="hover_p">		<!-- ㅡㅡㅡㅡ 넥타이 ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="neck_txt_01">PRODUCT ISSUE</li>
+                            <li class="text">SPECIAL PICK</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                            <li class="txt_02">KEY ITEM TO SUCCEEO  THIS SEASON</li>
+                        </ul>
+                </div>
+
+                <div id="ready" class="hover_p">		<!-- ㅡㅡㅡㅡ 이종석 ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li id="ready_txt_01" class="txt_01">SIGN CAMPAIGN</li>
+                            <li class="text">READY TO EVERYWEAR</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                            <li class="txt_02">CHECK OUT HOW TO<br />DRESS REALWAY STYLE</li>
+                        </ul>
+                </div>
+
+
+
+
+
+
+                <div id="product">
+
+                <p id="new_text">NEW PRODUCT</p>
+                <p id="new_border"><img src="images/new_border.png" alt="border"></p>
+
+                <div class="swiper-container">
+                	<div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/img_01.png" alt="셔츠"></div>
+                        <div class="swiper-slide"><img src="images/img_02.png" alt="셔츠"></div>
+                        <div class="swiper-slide"><img src="images/img_03.png" alt="티셔츠"></div>
+                        <div class="swiper-slide"><img src="images/img_04.png" alt="팬츠"></div>
+                        <div class="swiper-slide"><img src="images/img_05.png" alt="팬츠"></div>
+                        <div class="swiper-slide"><img src="images/img_06.png" alt="슈즈"></div>
+                        <div class="swiper-slide"><img src="images/img_07.png" alt="셔츠"></div>
+                        <div class="swiper-slide"><img src="images/img_08.png" alt="카라티"></div>
+
+                  </div>
+
+                    <!-- 슬라이드 내 화살표 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                </div>
+
+
+                <div id="shop" class="hover_p">		<!-- ㅡㅡㅡㅡ SHOP ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                    <a href="#">
+                        <ul class="box">
+                            <li id="shop_img"><img src="images/shop_point.png" alt="shop point image"></li>
+                            <li id="shop_text">SHOP</li>
+                            <li id="shop_border"><img src="images/border_black.png" alt="border"></li>
+                            <li id="shop_txt_02">FIND OUT WHERE WE ARE</li>
+                        </ul>
+                      </a>
+                    </div>
+
+
+                <div id="talk" class="hover_p">		<!-- ㅡㅡㅡㅡ TALK ㅡㅡㅡㅡ -->
+                    <a href="#"><div class="hover_box"></div></a>
+                        <ul class="box">
+                            <li class="txt_01">STORY</li>
+                            <li class="text">SIEG’S TALK</li>
+                            <li class="border"><img src="images/border.png" alt="border"></li>
+                        </ul>
+                     </div>
+
+
+
+
+
+
+
+
+		</div> 	<!-- //inner -->
+	</div>  <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //컨텐츠 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+
+
+
+
+
+	<div id="footer">		<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ 푸터 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+		<div class="inner"> <!-- inner -->
+
+
+        		<ul id="m_footer_menu"> <!-- 모바일 푸터 메뉴 -->
+                    <li id="m_footer_menu_01"><a href="#">이용약관</a></li>
+                    <li id="m_footer_menu_02"><a href="#">개인정보취급방침</a></li>
+                </ul>
+
+
+                <ul id="footer_menu">
+                	<li><a href="#">HOME</a></li>
+                    <li><a href="#">HELP</a></li>
+                    <li><a href="#">가격조회</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">Q&A </a></li>
+                	<li><a href="#">A/S조회</a></li>
+                </ul>
+
+
+
+                <ul id="footer_menu_02">
+                	<li><a href="#">CHINESE</a></li>
+                    <li><a href="#">FAMILY SITE</a></li>
+                </ul>
+
+                <p id="customer_txt">Customer Center : 02.3274.5530 / 080.023.0888</p>
+                <p id="hyejin_txt">Copyright ⓒ 2016 <strong>HYEJIN</strong> ALL RIGHTS RESERVED.</p>
+
+
+		</div> 	<!-- //inner -->
+	</div>	<!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //푸터 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ -->
+
+
+</div> <!--  //Wrap  -->
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+		nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 5,
+        paginationClickable: true,
+		spaceBetween:-20,
+        freeMode: true,
+		loop: true
+
+    });
+    </script>
+</body>
+<script src="js/jquery.hoverdir.js"></script>
+        <script type="text/javascript">
+            $(function () {
+				$(' #da-thumbs > .hover_p ').hoverdir();
+			});
+        </script>
+</html>

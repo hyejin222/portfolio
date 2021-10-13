@@ -1,0 +1,210 @@
+/*	웹폰트 적용   */
+@font-face {
+			font-family:'verdana_regular';
+			src: url('../font/verdana_regular');
+			src: url('../font/verdana_regular.eot?#iefix') format('embedded-opentype'),
+				 url('../font/verdana_regular.woff') format('woff'),
+				 url('../font/verdana_regular.ttf') format('truetype');
+}
+@font-face {
+			font-family:'verdana_bold';
+			src: url('../font/verdana_bold');
+			src: url('../font/verdana_bold.eot?#iefix') format('embedded-opentype'),
+				 url('../font/verdana_boldr.woff') format('woff'),
+				 url('../font/verdana_bold.ttf') format('truetype');
+}
+@font-face {
+			font-family:'calibri_bold';
+			src: url('../font/calibri_bold');
+			src: url('../font/calibri_bold.eot?#iefix') format('embedded-opentype'),
+				 url('../font/calibri_bold.woff') format('woff'),
+				 url('../font/calibri_bold.ttf') format('truetype');
+}
+@font-face {
+			font-family:'calibri_regular';
+			src: url('../font/calibri_regular');
+			src: url('../font/calibri_regular.eot?#iefix') format('embedded-opentype'),
+				 url('../font/calibri_regular.woff') format('woff'),
+				 url('../font/calibri_regular.ttf') format('truetype');
+}
+@font-face {
+			font-family:'calibri_light';
+			src: url('../font/calibri_light');
+			src: url('../font/calibri_light.eot?#iefix') format('embedded-opentype'),
+				 url('../font/calibri_light.woff') format('woff'),
+				 url('../font/calibri_light.ttf') format('truetype');
+}
+@font-face {
+			font-family:'calibri_italic';
+			src: url('../font/calibri_italic');
+			src: url('../font/calibri_italic.eot?#iefix') format('embedded-opentype'),
+				 url('../font/calibri_italic.woff') format('woff'),
+				 url('../font/calibri_italic.ttf') format('truetype');
+}
+
+
+
+/* Style. css ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+a { text-decoration:none; color:#484848; }
+img { vertical-align: top; }
+input,select,label { vertical-align: middle; }
+html,body{ height:100%; width:100%; overflow-x:hidden; }
+
+#wrap { width:100%; height:100%; }
+.inner { width: 1400px; height: 100%; margin: 0 auto; position: relative;  }
+.header_inner {/* padding-top: 110px; */width: 1400px;height: 100%;margin: 0 auto;position: relative;}
+
+
+
+
+/* header  */
+#header { border-bottom: 1px solid #d2d2d2;}
+.logo { text-align: center;margin: 40px auto 30px;}
+#mobile_menu, #mobile_sub_menu_box { display: none; }
+#menu, #menu_box {display: block;}
+#m_menu_bar { display: none; }
+#menu { text-align:center;width:1400px;margin-bottom: 20px;}
+#menu li { display:inline-block; margin-right: 20px; width: 120px; }
+#menu li:hover { font-weight: bold; letter-spacing: 2px; }
+#menu li a { font-family: "verdana_regular"; font-size: 14px; color: black; }
+
+
+/* sub menu */
+#sub_menu_box {background: #f3f3f3;width: 755px;height: 0px;position: absolute;top: 108px;left: 300px;overflow: hidden;z-index: 9;}
+.sub_menu { text-align: center; }
+.sub_menu li { font-family: Calibri; font-weight: normal; font-size: 14px; font-color: #6b6b6b; margin-bottom: 10px; text-aline: center; }
+.sub_menu li a:hover{ font-weight: bold; }
+.about_sub { width: 137px; height: 80px; border-right: 1px solid #d0d0d0; position: absolute; top: 20px; left: 28px; }
+.collection_sub { width: 146px; 	height: 80px; border-right: 1px solid #d0d0d0; position: absolute; top: 20px; left: 170px; }
+.press_sub { width: 143px; height: 80px; border-right: 1px solid #d0d0d0; position: absolute; top: 20px; left: 318px; }
+.store_sub { width: 134px; height: 80px; border-left: 1px solid #d0d0d0; position: absolute; top: 20px; left: 610px; }
+
+
+/* content */
+#content { width: 100%; height: 1230px; }
+
+
+/* 전체 박스! */
+.box { text-align: center; }
+.hover_box { position: absolute; background: #333; background: rgba(0,117,169,0.5); width: 100%; height: 100%; left: -100%; }
+.da-thumbs .hover_p:hover .hover_box {
+	top: 0px;
+	left: -100%;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.da-thumbs .hover_p:hover .hover_box{ left: 0px; }
+.da-thumbs .hover_p { overflow:hidden; }
+.sns_img { border-radius:25px; position:relative; 	width: 51px; height: 51px; float: left; margin-right: 20px; overflow:hidden; }
+.sns_img a:hover { width: 51px;	height: 51px; }
+.hover_box_1 { position: absolute; background: #333; background: rgba(0,117,169,0.5); width: 51px; height: 51px; border-radius: 25px; left: -100%; }
+.sns_img a:hover .hover_box_1 {
+	top: 0px;
+	left: -100%;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.sns_img a:hover .hover_box_1{ left: 0px; }
+
+
+
+
+/*  전체 박스 중  movie  */
+#movie { width: 550px; height: 265px; position: absolute; top: 30px; left: 0px; }
+.txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 20px; margin-top: 45px; }
+.play { margin-bottom: 15px; }
+#movie_text { color: #FFF; font-size: 30px; font-family: "calibri_light"; text-shadow: 2px 2px 3px #2A2A2A; letter-spacing: 5px; margin-bottom: 15px; }
+.border { margin-bottom: 5px; }
+.txt_02 { font-family: "calibri_italic"; font-size: 12px; line-height: 12.75px; color: #FFF; }
+#video { position: absolute; top: 30px; left: 0px; display: block; object-fit: cover; overflow: hidden; }
+
+
+
+/*  전체 박스 중  still  */
+#still { background: url('../images/still_img.png') no-repeat; width: 267px; height: 549px; position: absolute; top: 313px; 	left: 0px; }
+#still_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 20px; margin-top: 240px; }
+.text { color: #FFF; font-size: 30px; font-family: "calibri_light"; text-shadow: 2px 2px 3px #2A2A2A; letter-spacing: 5px;	 margin-bottom:  25px; }
+#border { margin-bottom: 5px; }
+#txt_02 { font-family: "calibri_italic"; font-size: 12px; line-height: 12.75px; color: #FFF; }
+
+
+/* 전체 박스 중  SIEG BLACK */
+#sieg_black { background: url('../images/black_img.png') no-repeat; width: 265px; height: 265px; position: absolute; 	top: 313px; left: 285px; }
+#product_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 20px; margin-top: 75px; }
+.black_text { color: #FFF; font-size: 30px; 	font-family: "calibri_light"; text-shadow: 1px 1px 4px #FFF; letter-spacing: 5px; margin-bottom: 15px; }
+
+
+/* 전체 박스 중  SNS */
+#sns { background: url('../images/follow_img.png') no-repeat; width: 265px; height: 265px; position: absolute; top: 597px; left: 285px; }
+#sns_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 20px; margin-top: 60px; }
+#sns_text { color: #FFF; font-size: 30px; font-family: "calibri_light"; letter-spacing: 5px; margin-bottom: 15px; }
+#sns_01 { margin-left: 37px; }
+
+
+
+/* 전체 박스 중  main이미지 */
+#main_img { background: url('../images/main_img.png') no-repeat; width: 265px; height: 832px; position: absolute; top: 30px; left: 564px; }
+#main_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; text-shadow: 1px 1px 2px #2A2A2A; margin-bottom: 20px; margin-top: 330px;	 }
+#main_text { color: #FFF; font-size: 30px; font-family: "calibri_light"; text-shadow: 2px 2px 3px #2A2A2A; letter-spacing: 5px;	 margin-bottom: 25px; }
+
+/* 전체 박스 중  로고 움직임 */
+#logo_move { background: url('../images/logo_move.gif'); width: 265px; height: 265px; position: absolute; top: 30px; left: 851px; }
+
+
+
+/* 전체 박스 중  서강준  */
+#celebs { background: url('../images/celebs_img.png') no-repeat; width: 265px; height: 265px; position: absolute; top: 30px; 	left: 1129px; }
+#celebs_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 35px; 	margin-top: 68px; }
+#celebs_text { color: #FFF; font-size: 30px; font-family: "calibri_light"; text-shadow: 2px 2px 3px #2A2A2A; letter-spacing: 5px;	 margin-bottom: 25px; }
+
+
+/* 전체 박스 중  넥타이 */
+#neck { background: url('../images/neck_img.png') no-repeat; width: 550px; height: 267px; position: absolute; top: 313px; left: 851px; }
+#neck_txt_01 { font-family: "calibri_bold"; font-size: 14px; color: #FFF; margin-bottom: 33px; margin-top: 70px; }
+
+
+/* 전체 박스 중  이종석 */
+#ready { background: url('../images/ready_img.png') no-repeat; width: 550px; height: 267px; position: absolute; top: 597px; left: 851px; }
+
+
+/* 전체 박스 중  PRODUCT ,  nav    */
+#product { width: 829px; height: 266px; position: absolute; top: 881px; left: 0px; }
+#new_text { font-family: "calibri_regular"; font-size: 16px; color: #313131; position:absolute; top: 13px; left: 6px; letter-spacing: 5px; z-index: 9; }
+#new_border { width: 20px; height: 2px; color: #313131; position:absolute; top: 35px; left: 6px; z-index: 9; }
+#product_con { position: absolute;  left: 70px;  right: 73px; }
+.swiper-slide img { cursor: pointer; }
+#left_btn { position: absolute; top: 127px; left: 15px; }
+#right_btn { position: absolute; top: 127px; left: 800px; }
+
+
+/* 전체 박스 중  SHOP */
+#shop { background: url('../images/shop_img.png') no-repeat; width: 265px; height: 265px; position: absolute; top: 881px; left: 851px; }
+#shop_img { margin-bottom: 12px; margin-top: 65px; }
+#shop_text { font-size: 30px; font-family: "calibri_light"; color: #4d4949; text-shadow: 2px 2px 3px #2A2A2A; letter-spacing: 5px;	 margin-bottom:  15px; }
+#shop_txt_02 { font-family: "calibri_italic"; font-size: 12px; line-height: 12.75px; color: #4d4949; }
+
+
+/* 전체 박스 중  TALK */
+#talk { background: url('../images/talk_img.png') no-repeat; width: 265px; height: 265px; position: absolute; top: 881px; left: 1136px; }
+
+
+/* footer  */
+#footer { width: 100%; height: 80px; border-top: 1px solid #d2d2d2; }
+#footer_menu { display:block; position: absolute; top: 16px; left: 10px; }
+#m_footer_menu { display: none; }
+#footer_menu li { float: left; margin-right:15px; height:10px; border-right:1px solid #7a6a57; }
+#footer_menu li:last-child { border: none; margin-right: 0px; }
+#footer_menu li a { font-size: 12px; font-family: "맑은 고딕"; font-weight: bold; color: #7a6a57; vertical-align:top; line-height:10px; padding-right:15px; }
+#footer_menu_02 { position: absolute; left: 625px; top: 16px; }
+#footer_menu_02 li { float: left; margin-right: 15px; border-right: 1px solid #313131; padding-right: 15px; height:10px; }
+#footer_menu_02 li:last-child { border: none; margin-right: 0px; }
+#footer_menu_02 li a { font-size: 12px; font-family: "맑은 고딕"; font-weight: bold; color: #7a6a57; line-height:10px; vertical-align:top; }
+#customer_txt { font: bold 16px "맑은 고딕"; color: #313131; position: absolute; right: 10px; top: 10px; }
+#hyejin_txt { font: bold 12px "맑은 고딕" ; color: #5E5147; position: absolute; right: 10px; top: 38px; }

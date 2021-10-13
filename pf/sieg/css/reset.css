@@ -1,0 +1,31 @@
+/* reset.css */
+
+*{
+  margin:0;
+  padding:0;
+}
+
+hr{
+  display:none;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;  /* 16px(고정)=12pt(고정)=100%(가변)=1em(가변) */
+  font-weight:normal;
+}
+ol,ul,li {
+  list-style:none;
+}
+fieldset, img{
+  border:0 none;
+}
+table{
+   border-spacing:0;
+   border:0 none;
+}
+address,em{
+   font-style:normal;
+}
+del,ins{
+   text-decoration:none;
+}
+
