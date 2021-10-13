@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>워너STAR</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/swiper.css">
+    <link rel="shorcut icon" href="faviconStar.ico">
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/bj.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div class="navbar">
+        <a href="#">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+            <span class="bar-3"></span>
+        </a>
+    </div>
+    <header>
+        <div class="logo" onclick="location.href='index.html';"><img src="img/logo.png" alt="logo" /></div>
+        <div class="search">
+            <div><img src="img/search.png" alt="search"></div>
+            <div><input type="text" placeholder="여기에서 검색해보세요!"/></div>
+        </div>
+        <div id="bg" class="bg"></div>
+        <nav>
+            <ul>
+                <li onclick="location.href='bjlist/bjlist.html';">STAR보기</li>
+                <li class="dep2">추천하기
+                    <ul>
+                        <li onclick="location.href='newbj/newbj_form_others.html';">추천하기</li>
+                        <li onclick="location.href='newbj/newbj_form_self.html';">등록하기</li>
+                    </ul>
+                </li>
+                <li onclick="location.href='gallery/gallery.html';">갤러리</li>
+                <li onclick="location.href='notice/list.html';">공지사항</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="mainpage">
+        <div class="mainImg">
+            <div class="txtBox">
+                <div>
+                    <img src="img/logo_ver02.png">
+                    <h3>잘나가는 STAR중 최고를 가린다!</h3>
+                    <h2>나의 <b>워너비 STAR</b>는 누구?</h2>
+                    <p>투표기간 : 0000.00 ~ 0000.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="bgBox">
+            <div class="section sc01">
+                <div class="contentwrap">
+                    <div class="hotBJ fleft edge pc-only">
+                        <div class="title"><h4><b>HOT </b>STAR</h4></div>
+                        <div class="card viewPrnt" style="margin-right: 3.5%;">
+                            <div class="parent">
+                                <div class="viewChld child bj01">
+                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                </div>
+                                <div class="trans_txt">
+                                    <img src="img/icon_crown.png"><span class="cardname fleft">윙크쟁이</span>
+                                </div>
+                                <div class="btnb">
+                                    <a href="#" class="voteBtn">VOTE</a>
+                                    <a href="#" id="like"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                </div>
+                            </div>
+                            <ul class="ul_count">
+                                <li><span>12,000</span> <div class="ibg coin"></div></li>
+                                <li><span>13,373</span> <div class="ibg hrt"></div></li>
+                            </ul>
+                            <ul class="ul_name">
+                                <li>귀여운 강아지</li>
+                                <li>윙크쟁이</li>
+                            </ul>
+                        </div>
+                        <div class="card viewPrnt" style="margin-right: 3.5%;">
+                            <div class="parent">
+                                <div class="viewChld child bj01">
+                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                </div>
+                                <div class="trans_txt">
+                                    <img src="img/icon_crown.png"><span class="cardname fleft">윙크쟁이</span>
+                                </div>
+                                <div class="btnb">
+                                    <a href="#" class="voteBtn">VOTE</a>
+                                    <a href="#" id="like"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                </div>
+                            </div>
+                            <ul class="ul_count">
+                                <li><span>12,000</span> <div class="ibg coin"></div></li>
+                                <li><span>13,373</span> <div class="ibg hrt"></div></li>
+                            </ul>
+                            <ul class="ul_name">
+                                <li>귀여운 강아지</li>
+                                <li>윙크쟁이</li>
+                            </ul>
+                        </div>
+                        <div class="card viewPrnt">
+                            <div class="parent">
+                                <div class="viewChld child bj01">
+                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                </div>
+                                <div class="trans_txt">
+                                    <img src="img/icon_crown(s).png"><span class="cardname fleft">윙크쟁이</span>
+                                </div>
+                                <div class="btnb">
+                                    <a href="#" class="voteBtn">VOTE</a>
+                                    <a href="#" id="like"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                </div>
+                            </div>
+                            <ul class="ul_count">
+                                <li><span>12,000</span><div class="ibg coin"></div></li>
+                                <li><span>13,373</span><div class="ibg hrt"></div></li>
+                            </ul>
+                            <ul class="ul_name">
+                                <li>귀여운 강아지</li>
+                                <li>윙크쟁이</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hotBJ fleft edge mobile-only">
+                        <div class="title"><h4><b>HOT </b>STAR</h4></div>
+                        <div class="slide">
+                            <!-- Swiper -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="viewChld">
+                                            </div>
+                                            <div class="btnb">
+                                                <a href="#" class="voteBtn">VOTE</a>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="viewChld">
+                                            </div>
+                                            <div class="btnb">
+                                                <a href="#" class="voteBtn">VOTE</a>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- TODAY BJ 삭제
+                    <div class="todayBJ fleft edge" style="margin-bottom: 0">
+                        <div class="title"><h4><b>TODAY </b>BJ</h4></div>
+                        <div class="card viewPrnt">
+                            <div class="parent">
+                                <div class="viewChld child bj01">
+                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                </div>
+                                <div class="trans_txt pc-only">
+                                    <img src="img/icon_crown(s).png"><span class="cardname fleft">윙크쟁이</span>
+                                </div>
+                                <div class="btnb">
+                                    <a href="#" class="voteBtn">VOTE</a>
+                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                </div>
+                            </div>
+                            <ul class="ul_count mobile-hide">
+                                <li><span>12,000</span> <div class="ibg coin"></div></li>
+                                <li><span>13,373</span> <div class="ibg hrt"></div></li>
+                            </ul>
+                            <ul class="ul_name">
+                                <li>귀여운 강아지</li>
+                                <li>윙크쟁이</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="section sc02">
+                <div class="contentwrap">
+                    <div class="newBJ">
+                        <div class="title"><h4><b>NEW</b> STAR</h4></div>
+                        <div class="slide">
+                            <!-- Swiper -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide viewPrnt">
+                                        <div class="card viewChld bj01">
+                                            <div class="parent">
+                                                <div class="viewChld child">
+                                                    <div class="content"><a href="bjs/bjs_detail.html"></a></div>
+                                                </div>
+                                                <div class="trans_txt pc-only">
+                                                    <span class="cardname fleft">윙크쟁이</span>
+                                                </div>
+                                                <div class="btnb">
+                                                    <a href="#" class="voteBtn">VOTE</a>
+                                                    <a href="#" id="like" class="mobile-hide"><img src="img/icon_hrt_wh.png" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="ul_count pc-only">
+                                            <li><span>12,000</span><div class="ibg coin"></div></li>
+                                            <li><span>13,373</span><div class="ibg hrt"></div></li>
+                                        </ul>
+                                        <ul class="ul_name">
+                                            <li>귀여운 강아지</li>
+                                            <li><b>윙크쟁이</b></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section sc03">
+                <div class="contentwrap">
+                    <div class="hotTV pc-only">
+                        <div class="title"><h4><b>HOT</b> TV</h4></div>
+                        <div class="videocontainer">
+                            <div class="bjsBox">
+                                <div class="vframe">
+                                    <iframe src="https://www.youtube.com/embed/E89XOHTCI14"frameborder="0" allowfullscreen="true"></iframe>
+                                </div>
+                                <div class="tvInfo">
+                                    <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                    <p class="bjName">동동ZOO</p>
+                                </div>
+                            </div>
+                            <div class="bjsBox">
+                                <div class="vframe">
+                                    <iframe src="https://www.youtube.com/embed/E89XOHTCI14" frameborder="0" allowfullscreen="true"></iframe>
+                                </div>
+                                <div class="tvInfo">
+                                    <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                    <p class="bjName">동동ZOO</p>
+                                </div>
+                            </div>
+                            <div class="bjsBox">
+                                <div class="vframe">
+                                    <iframe src="https://www.youtube.com/embed/E89XOHTCI14"frameborder="0" allowfullscreen="true"></iframe>
+                                </div>
+                                <div class="tvInfo">
+                                    <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                    <p class="bjName">동동ZOO</p>
+                                </div>
+                            </div>
+                            <div class="bjsBox">
+                                <div class="vframe">
+                                    <iframe src="https://www.youtube.com/embed/E89XOHTCI14"frameborder="0" allowfullscreen="true"></iframe>
+                                </div>
+                                <div class="tvInfo">
+                                    <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                    <p class="bjName">동동ZOO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotTV mobile-only">
+                        <div class="title"><h4><b>HOT</b> TV</h4></div>
+                        <div class="slide">
+                            <!-- Swiper -->
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper videocontainer">
+                                <!-- <div class="swiper-wrapper"> -->
+                                    <div class="swiper-slide bjsBox">
+                                        <div class="vframe">
+                                            <iframe src="https://www.youtube.com/embed/E89XOHTCI14" frameborder="0" allowfullscreen="true"></iframe>
+                                        </div>
+                                        <div class="tvInfo">
+                                            <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                            <p class="bjName">동동ZOO</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide bjsBox">
+                                        <div class="vframe">
+                                            <iframe src="https://www.youtube.com/embed/E89XOHTCI14"frameborder="0" allowfullscreen="true"></iframe>
+                                        </div>
+                                        <div class="tvInfo">
+                                            <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                            <p class="bjName">동동ZOO</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide bjsBox">
+                                        <div class="vframe">
+                                            <iframe src="https://www.youtube.com/embed/E89XOHTCI14" frameborder="0" allowfullscreen="true"></iframe>
+                                        </div>
+                                        <div class="tvInfo">
+                                            <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                            <p class="bjName">동동ZOO</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide bjsBox">
+                                        <div class="vframe">
+                                            <iframe src="https://www.youtube.com/embed/E89XOHTCI14"frameborder="0" allowfullscreen="true"></iframe>
+                                        </div>
+                                        <div class="tvInfo">
+                                            <p class="yt-title">절미언니가 말해주는 인절미의 하루♥</p>
+                                            <p class="bjName">동동ZOO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add Pagination -->
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div id="popbg" class="popbg"></div>
+<div id="popup" class="useNotice">
+   <div class="title">이용안내<img src="img/icon_closeW.png" alt="닫기버튼"></div>
+   <div class="popBox">
+      <div class="poptxt">
+         본 안내(이하 ‘본 안내’이라 함)는 홍콩에 설립된 법인인 ‘HYEJIN’ (이하 ‘당사’라 함)이(가) 제공하는 ‘워너STAR’에 관한 모든 제품 및 서비스(이하 ‘본 서비스’라 함)의 이용에 관한 조건에 대해 본 서비스를 이용하는 고객(이하 ‘고객’이라 함)에 대한 안내 입니다. <br><br>
+
+         <b>1. 정의</b><br>
+         <ul class="subTxt">
+            <li><span>본 안내에서는 다음 용어를 사용합니다.</span></li>
+            <!-- <li><span class="bullet">-</span><span>‘비트코인(BTC)’ 이란 암호화폐의 한 종류로써, '당사'가 제공하는 본 서비스에서 원하는 후보자에게 투표를 할 때 쓰이는 도구를 말합니다. 비트코인의 표기는 소수점 아래 3자리까지만 표시합니다.</span></li>
+            <li><span class="bullet">-</span><span>‘이더리움(ETH)’ 이란 암호화폐의 한 종류로써, '당사'가 제공하는 본 서비스에서 원하는 후보자에게 투표를 할 때 쓰이는 도구를 말합니다. 이더리움의 표기는 소수점 아래 3자리까지만 표시합니다.</span></li> -->
+            <li><span class="bullet">-</span><span>‘퀀텀(QTUM)’ 이란 암호화폐의 한 종류로써, '당사'가 제공하는 본 서비스에서 원하는 후보자에게 투표를 할 때 쓰이는 도구를 말합니다. 퀀텀의 표기는 소수점 아래 3자리까지만 표시합니다.</li>
+            <li><span class="bullet">-</span><span>‘리빈(LIVEEN)’ 이란 암호화폐의 한 종류로써, '당사'가 제공하는 본 서비스에서 원하는 후보자에게 투표를 할 때 쓰이는 도구를 말합니다. 리빈의 표기는 소수점 아래 3자리까지만 표시합니다.</li>
+            <li>
+               <span class="bullet">-</span><span>‘RP’란 ‘Ranking Point’의 줄임말로써 상이한 가격의 퀀텀(QTUM), 리빈(LIVEEN)의 가치를 수치로 변환하여 산정한 값을 말합니다.</span>
+
+               <span class="subInfo">
+                  <span class="bullet2">*</span><span>산정공식: Ranking Point = [(QTUM개수 x QTUM의USD시세) + (LIVEEN개수 x LIVEEN의USD시세)]</span>
+                  <span class="bullet2">*</span><span>퀀텀(QTUM), 리빈(LIVEEN)의 시세는 모두 ‘대한민국 표준시’의 ‘코인마켓캡’을 기준으로 합니다.</span>
+               </span>
+            </li>
+            <li><span class="bullet">–</span><span>‘보팅 어워즈 (Voting Awards)’란 해당 투표 대상자에게 제공되는 ‘최종 RP’를 기준으로 산출 된 암호화폐의 양과 ‘추가 혜택’을 말합니다.</span></li>
+            <li><span class="bullet">–</span><span>‘후보자 추천’이란 고객들이 '1등 STAR'로 선발되기를 원하는 대상자를 추천하는 것을 말합니다.</span></li>
+            <li><span class="bullet">–</span><span>‘콘텐츠’란 사용자들이 후보추천을 함에 있어 작성하는 일체의 정보를 말합니다.</span></li>
+         </ul><br>
+
+         <b>2. 후보자 추천</b> <br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>본 서비스에서 후보자 추천의 대상자는 한국에서 활동하고 있는 혹은 한국인에 한하며, 대상자는 고객의 추천에 의해서만 선발 됩니다. ‘당사’는 후보추천을 하지 않음을 명시합니다.</span></li>
+            <li><span class="bullet">–</span><span>고객은 후보추천을 하는 경우에 한하여 SNS인증을 해야 합니다.</span></li>
+            <li><span class="bullet">–</span><span>'당사'는 1항과 같이 SNS인증을 한 고객 중 등록 내용에 허위, 정치적 선동, 폭력적 언어 등 기타 사회질서에 반하는 정보를 게재한 경우, 후보자 추천을 제한할 수 있습니다.</span></li>
+            <li><span class="bullet">–</span><span>후보 등록 승인은 '당사'의 고유 권한이며, 후보 등록의 성립시기는 ‘당사’의 승낙이 있는 시점으로 합니다.</span></li>
+            <li><span class="bullet">–</span><span>후보로 추천되었던 대상자의 정보는 보관될 수 있으며 이후의 이벤트 페이지에 활용될 수 있습니다.</span></li>
+         </ul><br>
+
+         <b>3. 콘텐츠</b><br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>‘당사’의 본 서비스에 사용되는 모든 콘텐츠는 고객에 의하여만 게재되며 ‘당사’는 콘텐츠를 게재하지 않습니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 고객이 게재한 콘텐츠에 관하여 법령을 위반하거나 또는 위반할 우려가 있다고 인정한 경우, 기타 업무상 필요한 경우, 고객에게 사전 통지 없이 콘텐츠를 삭제하는 등의 방법을 통하여 본 서비스에서 콘텐츠의 이용을 제한할 수 있습니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 고객이 게재한 콘텐츠를 저장 및 활용할 수 있습니다.</span></li>
+         </ul><br>
+
+         <b>4. 투표 관련 주의 사항</b> <br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>투표에 사용되어 지갑에 모인 암호화폐의 보관 및 관리권은 ‘당사’에 있습니다.</span></li>
+            <li><span class="bullet">–</span><span>투표 대상자 1인으로 하여 모인 코인의 배분 계획은 다음과 같습니다.</span></li>
+         </ul>
+
+         <table>
+             <tr>
+                 <th>HYEJIN</th>
+                 <th>Ranking Point x 10%</th>
+                 <th>플랫폼 운영 수입</th>
+             </tr>
+             <tr>
+                 <th>제휴 및 협력사</th>
+                 <th>Ranking Point x 20%</th>
+                 <th>홍보, 마케팅, 용역비용 </th>
+             </tr>
+             <tr>
+                 <th>STAR 후보자</th>
+                 <th>Ranking Point x 70%</th>
+                 <th>아래 항목 참고</th>
+             </tr>
+         </table>
+
+         <ul class="subTxt">
+            <li>
+               <span class="bullet">–</span><span>‘Ranking Point’(이하 RP)는 모두 ‘대한민국 표준시’의 ‘코인마켓캡’ 기준 퀀텀(QTUM), 리빈(LIVEEN)의 USD 가격을 합산하여 산출됩니다.</span>
+               <span class="subInfo">
+                  <span class="bullet2">*</span><span>해당 후보자는 투표에 사용된 퀀텀(QTUM), 리빈(LIVEEN)을 전달받게 됩니다.(이하 “보팅어워즈”)</span>
+               </span>
+            </li>
+            <li><span class="bullet">–</span><span>‘당사’는 해당 후보자 에게 ‘보팅어워즈’를 전달하기 위해서 최선을 다할 것입니다.</span></li>
+            <li><span class="bullet">–</span><span>투표 종료 후 3주까지도 투표 대상자에게 ‘보팅어워즈’를 전달하지 못하거나, 투표 대상자가 ‘보팅어워즈’의 인수를 거부한 경우, 해당 후보자의 이름으로 구호단체에 자동 기부 됩니다.</span></li>
+            <li><span class="bullet">–</span><span>초상권, 사용권 등 모든 법적 이유로 더 이상 투표가 진행될 수 없는 경우, 투표에 사용된 암호화폐는 반환되지 않으며 자동으로 해당 후보자의 이름으로 구호단체에 기부됩니다.</span></li>
+            <li><span class="bullet">–</span><span>투표에 사용된 암호화폐는 기술적인 이유 등으로 취소 및 환불이 절대 불가능 합니다.</span></li>
+            <li><span class="bullet">–</span><span>투표 대상자 혹은 구호단체에 전달될 ‘보팅어워즈’는 세금을 공제하기 전의 상태이므로 실제 전달되는 ‘보팅어워즈’와 상이 할 수 있습니다.</span></li>
+         </ul><br>
+
+         <b>5. 광고 게재</b><br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>‘당사’는 본 서비스에 당사 또는 제3자의 광고를 게재할 수 있습니다.</span></li>
+         </ul><br>
+
+         <b>6. 제휴 파트너 서비스</b><br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>본 서비스에는 ‘당사’와 제휴한 다른 사업자가 제공하는 서비스 또는 콘텐츠가 포함될 수도 있습니다. 이러한 서비스 또는 콘텐츠에 대한 책임은 이를 제공하는 사업자에게 있습니다. 또한, 이러한 서비스 또는 콘텐츠에는 이를 제공하는 사업자가 정한 이용약관 및 기타 조건이 적용되는 경우가 있습니다.</span></li>
+         </ul><br>
+
+         <b>7. 서비스 제공</b><br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>고객은 본 서비스를 이용하는 데 있어 필요한 PC나 휴대전화 단말기, 통신 기기, 운영 체제, 통신 수단, 전력 및 투표에 사용될 암호화폐 등을 고객의 비용과 책임 하에 준비해야 합니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 본 서비스의 전부 또는 일부를 연령, 본인 확인 여부, 등록정보 유무, 기타 ‘당사’에서 필요하다고 판단한 조건을 만족시키는 고객에 한하여 제공할 수 있습니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 필요하다고 판단될 경우, 고객에 대한 사전 통지 없이 언제라도 본 서비스의 전부 또는 일부 내용을 변경할 수 있으며 또한 그 제공을 중지할 수 있습니다.</span></li>
+         </ul><br>
+
+         <b>8. 당사 면책</b><br>
+         <ul class="subTxt">
+            <li><span class="bullet">–</span><span>‘당사’는 본 서비스에 사실상 또는 법률상의 하자(안전성, 신뢰성, 정확성, 완전성, 유효성, 특정 목적과 부합 여부, 보안 등에 관련된 결함, 오류와 버그, 권리 침해 등을 포함함)가 없음을 명시적으로도 암묵적으로도 보증하지 않습니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 고객에 대해 이러한 하자를 제거하고 본 서비스를 제공할 의무를 갖고 있지 않습니다.</span></li>
+            <li><span class="bullet">–</span><span>‘당사’는 본 서비스로 인하여 고객에게 발생한 모든 손해에 대해 일체의 책임을 부인 합니다.</span></li>
+            <li><span class="bullet">–</span><span>암호화폐로 투표를 하는 모든 고객은 '당사'의 본 방침에 동의한 것으로 간주합니다.</span></li>
+         </ul> <br><br>
+
+         위의 모든 조건에 동의 하실 경우에 한해서만 투표가 가능합니다.<br><br>
+         <b class="red"> 위의 모든 조건에 동의 하시지 않으실 경우, 절대 투표에 참여 하시면 안됩니다.</b>
+      </div>
+      <div class="btn_right">
+         <a href="#" class="button btn_pink" id="btn_agree">동의함</a>
+      </div>
+   </div>
+</div>
+<div id="popup" class="coinVote">
+   <div class="title">투표하기<img src="img/icon_closeW.png" alt="닫기버튼"></div>
+   <div class="popBox">
+      <div>
+         <div class="box">
+            <p class="red">※전송하려는 코인의 주소가 맞는지 확인해주세요. 혼동하여 사용하면 코인은 유실되며, 찾을 수 없습니다.</p>
+         </div>
+         <ul class="coinList">
+            <li coinType="QTUM" class="on">퀀텀(QTUM)</li>
+            <li coinType="LIVEEN">리빈(LIVEEN)</li>
+         </ul>
+         <div class="addrBox">
+            <div class="addr on" id="qtum">
+               <h4>QTUM Deposit Address</h4>
+               <p>fjlawj24jklDEFJKLgjkdlsjgleirlfekrlfdjdkwnrlfdjxhskdhsekr</p>
+               <ul class="qr_or_copy">
+                  <li><a href="#" class="btn_qr">Show QR Code</a></li>
+                  <li><a href="#" class="btn_copy_qr" id="copyQtum">Copy Address</a></li>
+               </ul>
+            </div>
+            <div class="addr" id="liveen">
+               <h4>LIVEEN Deposit Address</h4>
+               <p>dddfjlawj24jklDEFJKLgjkdlsjgleirlfekrlfdjdkwnrlfdjxhskdhsekr</p>
+               <ul class="qr_or_copy">
+                  <li><a href="#" class="btn_qr">Show QR Code</a></li>
+                  <li><a href="#" class="btn_copy_qr" id="copyLIVEEN">Copy Address</a></li>
+               </ul>
+            </div>
+         </div>
+         <p>
+            코인이 들어있는 지갑(wallet)에서 정확한 주소를 입력하시고, 투표에 사용하실 코인 수를 입력하신 후 전송하여 주시기 바랍니다. 주소는 QR코드를 활용 하실 수 있습니다.
+         </p>
+         <div class="btn_right">
+            <a href="#" class="btn_close btn_pink" id="btn_close">닫기</a>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="popbg" class="popbg2"></div>
+<div id="popup" class="qrCodePop">
+   <div class="title">QR코드<img src="img/icon_closeW.png" alt="닫기버튼"></div>
+      <div class="popBox qrbox qrOn" id="qrbox_QTUM">
+         <p class="coinT">QTUM Deposit Address</p>
+         <div class="qr_img"></div>
+         <p class="qr_addr">znjsxjawnthekqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtumqtum</p>
+         <div class="btn_right">
+            <a href="#" class="close_xrp btn_pink" id="btn_close">닫기</a>
+         </div>
+      </div>
+      <div class="popBox qrbox" id="qrbox_LIVEEN">
+         <p class="coinT">LIVEEN Deposit Address</p>
+         <div class="qr_img"></div>
+         <p class="qr_addr">dlejfldnawnthekLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEENLIVEEN</p>
+         <div class="btn_right">
+            <a href="#" class="close_xrp btn_pink" id="btn_close">닫기</a>
+         </div>
+      </div>
+</div>
+<div id="popup" class="alertPop">
+   <div class="title">알림<img src="img/icon_closeW.png" alt="닫기버튼"></div>
+   <div class="popBox">
+      <p>클립보드에 복사되었습니다.</p>
+      <div class="btn_right">
+         <a href="#" class="close_xrp btn_pink" id="btn_close">닫기</a>
+      </div>
+   </div>
+</div>
+
+
+    <div id="footer">
+      <div class="footer_top">
+         <div class="fLogo"><a href="support/company.html"><img src="img/footerLogo.png" alt="회사소개 go"></a></div>
+         <div class="menuBox">
+             <ul class="fMenu">
+                <li onclick="location.href='support/company.html';">회사소개</li>
+                <li onclick="location.href='support/policy.html';">이용안내</li>
+                <li onclick="location.href='support/privacy.html';">개인정보보호수집이용동의</li>
+                <li onclick="location.href='support/youth.html';">청소년보호정책</li>
+                <li onclick="location.href='support/nomail.html';">이메일수집금지정책</li>
+             </ul>
+             <ul class="fInfo">
+                <li>회사명 : HYEJIN</li>
+                <li>대표번호 : 010-6299-0220</li>
+                <li>회사메일 : <a href="tomail:hyejin.dev@gmail.com">hyejin.dev@gmail.com</a></li>
+             </ul>
+             <div class="sns">
+                <p>copyright ⓒ 2018 HYEJIN. All Rights Reserved.</p>
+                <div class="snsCom">
+                    <div><a href="#" target="_blank"><img src="img/f_facebook.png" alt="페이스북"></a></div>
+                    <div><a href="#" target="_blank"><img src="img/f_twitter.png" alt="트위터"></a></div>
+                    <div><a href="#" target="_blank"><img src="img/f_insta.png" alt="인스타그램"></a></div>
+                </div>
+            </div>
+         </div>
+      </div>
+   </div><!-- //footer -->
+   <div class="moveTop">↑</div>
+
+</div>
+
+
+<script src="./js/swiper.min.js"></script>
+<script>
+    $(document).ready(function () {
+      // 클립보드 복사
+      $('#copyQtum').on('click', function() {
+        copyText($('#qtum p').text());
+      });
+
+      $('#copyLIVEEN').on( 'click', function() {
+        copyText($('#liveen p').text());
+      });
+
+      popupOn('.voteBtn', '.useNotice', '.popbg');
+      popupOff('.useNotice .title>img');
+      popupOff('.useNotice #btn_agree');
+      popupOn('#btn_agree', '.coinVote', '.popbg');
+      popupOff('.coinVote .title>img');
+      popupOff('.coinVote #btn_close');
+      popupOn('.btn_qr', '.qrCodePop', '.popbg2');
+      popupOff2('.qrCodePop .title>img');
+      popupOff2('.qrCodePop #btn_close');
+      popupOn('.btn_copy_qr', '.alertPop', '.popbg2');
+      popupOff2('.alertPop .title>img');
+      popupOff2('.alertPop #btn_close');
+
+      $('.voteBtn').click(function(e) {
+          e.preventDefault();
+      });
+
+
+      $('.coinList > li').click(function() {
+          $('.coinList > li').removeClass('on');
+          var $this = $(this);
+
+          var coinIdx = $this.index();
+          $('.qrbox').removeClass('qrOn');
+          if($this.attr("coinType") == "QTUM") {
+             $("#qrbox_QTUM").addClass('qrOn');
+          }
+          if($this.attr("coinType") == "LIVEEN") {
+             $("#qrbox_LIVEEN").addClass('qrOn');
+          }
+          $this.addClass('on');
+
+          var $addr_class = $('.addr');
+          $addr_class.hide();
+          $addr_class.eq(coinIdx).show();
+      });
+
+
+        $(window).resize(function() {
+            FixWindowSize();
+            FixWindowSize_2();
+            FixWindowSize_3();
+            FixWindowSize_4();
+            FixWindowSize_5();
+            FixWindowSize_6();
+        });
+        FixWindowSize();
+        FixWindowSize_2();
+        FixWindowSize_3();
+        FixWindowSize_4();
+        FixWindowSize_5();
+        FixWindowSize_6();
+    });
+
+
+
+    // 슬라이더 script
+    var swiper1 = new Swiper();
+    var swiper2 = new Swiper();
+    var swiper3 = new Swiper();
+    var swiper4 = new Swiper();
+    var swiper5 = new Swiper();
+    var swiper6 = new Swiper();
+
+    function FixWindowSize(){
+        if(swiper1.size) {
+            swiper1.init();
+            swiper1.destroy(false, false);
+            swiper1 = new Swiper();
+        }
+
+        if (matchMedia("screen and (max-width: 768px)").matches) {
+            swiper1 = new Swiper('.hotBJ .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 30,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                },
+                navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                },
+            });
+        }
+    }
+    function FixWindowSize_2(){
+        if(swiper2.size) {
+            swiper2.init();
+            swiper2.destroy(false, false);
+            swiper2 = new Swiper();
+        }
+
+        if (matchMedia("screen and (max-width: 425px)").matches) {
+            swiper2 = new Swiper('.newBJ .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 10,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                },
+                navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                },
+            });
+
+        }
+    }
+
+
+    function FixWindowSize_3() {
+        if(swiper3.size) {
+            swiper3.init();
+            swiper3.destroy(false, false);
+            swiper3 = new Swiper();
+        }
+
+        if (matchMedia("screen and (min-width: 426px) and (max-width: 768px)").matches) {
+            swiper3 = new Swiper('.newBJ .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 2,
+                spaceBetween: 20,
+                slidesPerGroup: 2,
+                loop: true,
+                loopFillGroupWithBlank: false,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        }
+    }
+
+
+    function FixWindowSize_4() {
+        if(swiper4.size) {
+            swiper4.init();
+            swiper4.destroy(false, false);
+            swiper4 = new Swiper();
+        }
+
+        if (matchMedia("screen and (min-width: 768px)").matches) {
+            swiper4 = new Swiper('.newBJ .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 4,
+                spaceBetween: 10,
+                slidesPerGroup: 4,
+                loop: true,
+                loopFillGroupWithBlank: false,
+                pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                },
+                navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                },
+            });
+        };
+    }
+
+
+    function FixWindowSize_5() {
+        if(swiper5.size) {
+            swiper5.init();
+            swiper5.destroy(false, false);
+            swiper5 = new Swiper();
+        }
+
+        if (matchMedia("screen and (max-width: 425px)").matches) {
+            swiper5 = new Swiper('.hotTV .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 1,
+                spaceBetween: 5,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        }
+    }
+
+
+    function FixWindowSize_6() {
+        if(swiper6.size) {
+            swiper6.init();
+            swiper6.destroy(false, false);
+            swiper6 = new Swiper();
+        }
+
+        if (matchMedia("screen and (min-width: 426px) and (max-width: 768px)").matches) {
+            swiper6 = new Swiper('.hotTV .swiper-container', {
+                observer: true,
+                observeParents: true,
+                slidesPerView: 2,
+                spaceBetween: 5,
+                slidesPerGroup: 2,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        };
+    }
+
+
+    function copyText(text) {
+        var temp = document.createElement("input");
+        document.body.appendChild(temp);
+        temp.value = text;
+        temp.select();
+        document.execCommand("Copy");
+        document.body.removeChild(temp);
+        //alert("클립보드에 복사되었습니다.");
+    }
+
+</script>
+</body>
+</html>
